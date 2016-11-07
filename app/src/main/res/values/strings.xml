@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Time_Management(Admin)</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="login">Login</string>
+</resources>

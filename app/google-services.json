@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "582616969765",
+    "firebase_url": "https://test-47a66.firebaseio.com",
+    "project_id": "test-47a66",
+    "storage_bucket": "test-47a66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582616969765:android:2015342e674712d3",
+        "android_client_info": {
+          "package_name": "com.example.ait.time_managementadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582616969765-0gmgkhv50tn4b4os3kukhrlgq08nurp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOpzGTYdsACMRDRdWtxOSFETHUHdmFm6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
