@@ -6,4 +6,15 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+    <!--<resources>-->
+        <!--<style name="Widget.MyApp.ListView" parent="@android:style/Widget.ListView">-->
+            <!--<item name="android:paddingLeft">@dimen/vertical_padding</item>-->
+            <!--<item name="android:paddingRight">@dimen/vertical_padding</item>-->
+        <!--</style>-->
+    <!--</resources>-->
+    <!--<resources>-->
+        <!--<style name="Theme.MyApp" parent="android:Theme.NoTitleBar">-->
+            <!--<item name="stickyListHeadersListViewStyle">@style/Widget.MyApp.ListView</item>-->
+        <!--</style>-->
+    <!--</resources>-->
 </resources>

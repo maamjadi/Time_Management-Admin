@@ -6,7 +6,7 @@
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
@@ -16,6 +16,29 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <string name="selected_time">The time you picked will be shown here.</string>
+    <string name="selected_date">The date you picked will be shown here.</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="mode_24_hours">Use 24 hour mode</string>
+    <string name="mode_dark_time">Use dark theme</string>
+    <string name="mode_dark_date">Use dark theme</string>
+    <string name="mode_custom_accent">Use custom accent</string>
+    <string name="vibrate_time">Vibrate on touch</string>
+    <string name="vibrate_date">Vibrate on touch</string>
+    <string name="dismiss_time">Dismiss on pause (eg: orientation change)</string>
+    <string name="dismiss_date">Dismiss on pause (eg: orientation change)</string>
+    <string name="title_time">Show a title</string>
+    <string name="title_date">Show a title</string>
+    <string name="show_year_first">Show the year picker first</string>
+    <string name="enable_seconds">Show seconds picker</string>
+    <string name="enable_minutes">Show minutes picker</string>
+    <string name="limit_times">Limit selectable times</string>
+    <string name="limit_dates">Limit selectable dates</string>
+    <string name="disable_dates">Disable specific dates</string>
+    <string name="highlight_dates">Highlight certain dates</string>
+
     <string name="title_activity_scrolling">Administrator</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -110,4 +133,5 @@
     <string name="title_activity_request">RequestActivity</string>
     <string name="title_activity_edit_user">EditUserActivity</string>
     <string name="title_activity_try">TryActivity</string>
+    <string name="title_activity_login2">Sign in</string>
 </resources>

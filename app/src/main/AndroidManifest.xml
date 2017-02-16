@@ -6,6 +6,9 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +27,11 @@
         </activity>
         <activity
             android:name=".SignUpActivity"
-            android:label="Register Editor" />
+            android:label="">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.ait.time_managementadmin.ScrollingActivity" />
+        </activity>
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
@@ -39,9 +46,14 @@
             android:name=".RequestActivity"
             android:label="@string/title_activity_request"
             android:theme="@style/AppTheme">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.example.ait.time_managementadmin.ScrollingActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ait.time_managementadmin.ScrollingActivity" />
+            <dependency>
+                <groupId>se.emilsjolander</groupId>
+                <artifactId>stickylistheaders</artifactId>
+                <version>2.6.0</version>
+            </dependency>
         </activity>
         <activity
             android:name=".EditUserActivity"
